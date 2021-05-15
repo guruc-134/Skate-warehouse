@@ -183,7 +183,16 @@ main{
     text-transform: uppercase;
     text-decoration:none;
 }
-
+.wishlist
+{
+    text-decoration: none;
+    color:gray;
+}
+.wishlist:hover
+{
+    color:var(--themeColor);
+    transform: scale(1.1);
+}
 .btn 
 {
     background:transparent;
